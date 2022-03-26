@@ -50,13 +50,17 @@
 
 .decsription {
     background-color: #fff;
-    box-shadow: --shadow-light;
+    box-shadow: var(--shadow-light);
     padding: 3rem;
     flex: 0 0 60%;
     margin-right: 4.5rem;
 }
 
 .user-review {
-    background-color: yellowgreen;
+    // background-color: #fff;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
